@@ -1,4 +1,5 @@
 import mesa
+from mesa.time import RandomActivation
 from citizen import Citizen
 from tqdm import tqdm
 from datetime import datetime, timedelta

@@ -28,7 +28,7 @@ if __name__ == "__main__":
         os.mkdir("output")
     if os.path.exists("checkpoint") is not True:
         os.mkdir("checkpoint")
-    openai.api_key = "use your OpenAI API key here"
+    openai.api_key = "sk-2d3b27ca63474108aa8ea4ecc47bd017"
     for i in range(args.load_from_run, args.no_of_runs):
         print(f"--------Run - {i+1}---------")
         checkpoint_path = f"checkpoint/run-{i+1}"
